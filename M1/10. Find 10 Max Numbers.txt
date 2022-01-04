@@ -1,0 +1,1 @@
+we can iterate over all the 10M entries and maintain a max heap/priority queue of largest 10 numbers.
