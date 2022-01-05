@@ -2,6 +2,7 @@ class Solution:
     def encode(self, s):
         ans = ''
         c, cnt = s[0], 1
+        
         for i in range(1, len(s)):
             if s[i] == c:
                 cnt+=1
