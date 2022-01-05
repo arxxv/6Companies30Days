@@ -5,6 +5,7 @@ class Solution:
             wsorted = ''.join(sorted(word))
             if wsorted not in wordmap:
                 wordmap[wsorted] = []
+                
             wordmap[wsorted].append(word)
         return list(wordmap.values())
 
