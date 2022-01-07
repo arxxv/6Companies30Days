@@ -16,7 +16,6 @@ class Solution:
             while dq and arr[i] >= arr[dq[-1]] :
                 dq.pop()
             dq.append(i)
-        
         ans.append(arr[dq[0]])
         return ans
 
